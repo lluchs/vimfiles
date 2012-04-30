@@ -1,0 +1,20 @@
+snippet get "Getter" !b
+/** @return the $1 */
+public ${2:$3} get${3:${1/.+/\u$0/}}() {
+	return this.${1:foo};
+}
+endsnippet
+
+snippet set "Setter" !b
+/** @param $1 the $1 to set */
+public void set${3:${1/.+/\u$0/}}(${2:$3} $1) {
+	this.${1:foo} = $1;
+}
+endsnippet
+
+snippet nac "Null Argument Check" !b
+if (${1:arg} == null) {
+	throw new IllegalArgumentException("$1 must not be null");
+}
+endsnippet
+
