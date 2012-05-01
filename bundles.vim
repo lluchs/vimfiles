@@ -10,17 +10,13 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-fugitive'
-Bundle 'git://git.wincent.com/command-t.git'
 Bundle 'anzaika/go.vim'
-Bundle 'sjl/gundo.vim'
 Bundle 'othree/html5.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'ervandew/supertab'
 Bundle 'godlygeek/tabular'
 Bundle 'majutsushi/tagbar'
-Bundle 'sjl/threesome.vim'
-Bundle 'SirVer/ultisnips'
 Bundle 'lluchs/vim-c4script'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'altercation/vim-colors-solarized'
@@ -34,5 +30,19 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'wavded/vim-stylus'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-unimpaired'
+
+" need ruby
+if has("ruby")
+  Bundle 'git://git.wincent.com/command-t.git'
+else
+  Bundle 'kien/ctrlp.vim'
+endif
+
+" need python
+if has("python")
+  Bundle 'sjl/gundo.vim'
+  Bundle 'sjl/threesome.vim'
+  Bundle 'SirVer/ultisnips'
+endif
 
 filetype plugin indent on
