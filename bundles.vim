@@ -11,6 +11,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'mileszs/ack.vim'
 Bundle 'tpope/vim-fugitive'
+Bundle 'gregsexton/gitv'
 Bundle 'anzaika/go.vim'
 Bundle 'othree/html5.vim'
 Bundle 'chikamichi/mediawiki.vim'
