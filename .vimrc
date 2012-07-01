@@ -60,6 +60,9 @@ inoremap jk <esc>
 " More logical yanking
 noremap Y y$
 
+" Expand %% to current directory
+cabbr <expr> %% expand('%:p:h')
+
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
  
