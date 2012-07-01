@@ -16,6 +16,8 @@ set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 set cursorline
 set scrolloff=3
 
+set wrap linebreak
+
 let g:solarized_italic=0
 colorscheme solarized
 call togglebg#map("<F5>")
