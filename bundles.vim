@@ -9,9 +9,11 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
+Bundle 'mileszs/ack.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'anzaika/go.vim'
 Bundle 'othree/html5.vim'
+Bundle 'chikamichi/mediawiki.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'ervandew/supertab'
