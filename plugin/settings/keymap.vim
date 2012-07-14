@@ -4,6 +4,9 @@ inoremap jk <esc>
 " More logical yanking
 noremap Y y$
 
+" Clear search highlighting
+nmap <leader><space> :noh<CR>
+
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
  

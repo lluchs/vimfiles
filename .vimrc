@@ -40,7 +40,6 @@ set wildmode=list:longest,list:full
 
 set incsearch    " Find next match while typing
 set hlsearch     " Highlight search results
-nmap <leader><space> :noh<CR>
 set ignorecase   " Ignore case by default
 set smartcase    " Override previous setting when typing capital letters
 
