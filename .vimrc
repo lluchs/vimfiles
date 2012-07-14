@@ -1,3 +1,9 @@
+" Vim, not vi
+set nocompatible
+
+" Fix runtimepath on Windows
+set rtp=$HOME/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$HOME/.vim/after
+
 " load Vundle and bundles configuration
 source ~/.vim/bundles.vim
 
@@ -127,7 +133,7 @@ filetype plugin indent on
 set ts=4 sw=4
 augroup localsettings
   autocmd!
-  autocmd FileType vim,ruby,coffee,yaml,sass setlocal sts=2 sw=2 expandtab
+  autocmd FileType vim,ruby,coffee,yaml,sass,stylus setlocal sts=2 sw=2 expandtab
   autocmd FileType ruby setlocal noballooneval
 augroup END
 
