@@ -35,7 +35,7 @@ map <leader>cd :cd %:p:h<cr>
 map <leader>lcd :lcd %:p:h<cr>
 
 " show syntax
-map <F3> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<' . synIDattr(synID(line("."),col("."),0),"name") . "> lo<" . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
+map <F4> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<' . synIDattr(synID(line("."),col("."),0),"name") . "> lo<" . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
 
 " easier vimrc editing
 nmap <leader>ev :sp $MYVIMRC<cr>
