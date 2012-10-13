@@ -25,6 +25,7 @@ set cursorline                  " Highlight the current line
 set scrolloff=3                 " Start scrolling 3 lines away from margins
 set wrap linebreak              " Wrap properly at words
 set clipboard=unnamed           " Use system clipboard
+set mouse=a                     " Enable mouse usage on command line
 
 " Standard Fugitive statusline
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
