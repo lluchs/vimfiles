@@ -17,7 +17,6 @@ set directory=~/.vim/tmp//
 " syntax highlighting
 syntax on
 
-language messages en            " Overwrite system language
 set number                      " Line numbers
 set laststatus=2                " Always show the status line
 set backspace=indent,eol,start  " Allow backspacing over everything in insert mode
