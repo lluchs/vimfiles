@@ -70,7 +70,7 @@ set tabstop=4
 set shiftwidth=4
 
 " Display tabs and trailing spaces
-set list listchars=tab:\ \ ,trail:·
+set listchars=tab:\ \ ,trail:·
 
 filetype plugin indent on
 
