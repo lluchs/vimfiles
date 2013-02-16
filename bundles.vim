@@ -49,7 +49,7 @@ endif
 " need python
 if has("python")
   Bundle 'sjl/gundo.vim'
-  Bundle 'sjl/threesome.vim'
+  Bundle 'sjl/splice.vim'
   Bundle 'SirVer/ultisnips'
 endif
 
