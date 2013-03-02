@@ -6,6 +6,7 @@ let g:solarized_italic=0
 let g:solarized_termtrans=1
 
 " enable colorscheme
+set t_Co=16
 set background=dark
 colorscheme solarized
 
