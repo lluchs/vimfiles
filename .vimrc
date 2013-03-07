@@ -25,6 +25,9 @@ set scrolloff=3                 " Start scrolling 3 lines away from margins
 set wrap linebreak              " Wrap properly at words
 set clipboard=unnamed           " Use system clipboard
 set mouse=a                     " Enable mouse usage on command line
+if has("unix")                                                 
+  set ttymouse=xterm2           " Proper mouse support on linux
+endif
 
 " Standard Fugitive statusline
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
