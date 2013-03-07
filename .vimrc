@@ -17,7 +17,6 @@ set directory=~/.vim/tmp//
 " syntax highlighting
 syntax on
 
-language messages en            " Overwrite system language
 set number                      " Line numbers
 set laststatus=2                " Always show the status line
 set backspace=indent,eol,start  " Allow backspacing over everything in insert mode
@@ -25,6 +24,7 @@ set cursorline                  " Highlight the current line
 set scrolloff=3                 " Start scrolling 3 lines away from margins
 set wrap linebreak              " Wrap properly at words
 set clipboard=unnamed           " Use system clipboard
+set mouse=a                     " Enable mouse usage on command line
 
 " Standard Fugitive statusline
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
@@ -70,7 +70,7 @@ set tabstop=4
 set shiftwidth=4
 
 " Display tabs and trailing spaces
-set list listchars=tab:\ \ ,trail:·
+set listchars=tab:\ \ ,trail:·
 
 filetype plugin indent on
 

@@ -10,13 +10,13 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle 'mileszs/ack.vim'
+Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-fugitive'
 Bundle 'gregsexton/gitv'
 Bundle 'anzaika/go.vim'
 Bundle 'othree/html5.vim'
 Bundle 'chikamichi/mediawiki.vim'
 Bundle 'scrooloose/nerdtree'
-Bundle 'myusuf3/numbers.vim'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'ervandew/supertab'
 Bundle 'godlygeek/tabular'
@@ -35,6 +35,8 @@ Bundle 'michaeljsmith/vim-indent-object'
 Bundle 'pangloss/vim-javascript'
 Bundle 'groenewege/vim-less'
 "Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-sleuth'
 Bundle 'wavded/vim-stylus'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-unimpaired'
@@ -49,7 +51,7 @@ endif
 " need python
 if has("python")
   Bundle 'sjl/gundo.vim'
-  Bundle 'sjl/threesome.vim'
+  Bundle 'sjl/splice.vim'
   Bundle 'SirVer/ultisnips'
 endif
 
