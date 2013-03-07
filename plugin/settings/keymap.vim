@@ -20,10 +20,6 @@ map <C-l> <C-W>l
 noremap H ^
 noremap L $
 
-" Use the arrows to something usefull
-map <right> :bn<cr>
-map <left> :bp<cr>
-
 " Tab configuration
 map <leader>tn :tabnew<cr>
 map <leader>te :tabedit
