@@ -10,6 +10,7 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle 'mileszs/ack.vim'
+Bundle 'jtmkrueger/vim-c-cr'
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-fugitive'
 Bundle 'gregsexton/gitv'
