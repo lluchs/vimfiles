@@ -1,6 +1,9 @@
 augroup coffeescript
   au!
 
+  " Folding via indentation
+  au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
+
   " automatic CoffeeScript compile
   " only compile if there is already a js file
   function! AutoCoffeeMake()
