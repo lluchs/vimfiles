@@ -36,19 +36,14 @@ Bundle 'michaeljsmith/vim-indent-object'
 Bundle 'pangloss/vim-javascript'
 Bundle 'groenewege/vim-less'
 Bundle 'maciakl/vim-neatstatus'
+Bundle 'Shougo/vimproc.vim'
 "Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-sleuth'
 Bundle 'wavded/vim-stylus'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-unimpaired'
-
-" need ruby
-if has("ruby")
-  Bundle 'git://git.wincent.com/command-t.git'
-else
-  Bundle 'kien/ctrlp.vim'
-endif
+Bundle 'Shougo/unite.vim'
 
 " need python
 if has("python")
