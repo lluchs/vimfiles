@@ -5,6 +5,11 @@
 set nocompatible
 filetype off
 
+" Vundle installation will fail with fish.
+if &shell =~ '/fish$'
+  set shell=/bin/bash
+endif
+
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
