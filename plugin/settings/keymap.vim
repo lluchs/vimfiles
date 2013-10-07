@@ -10,12 +10,6 @@ nmap <leader><space> :noh<CR>
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
  
-" Smart way to move btw. windows
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-h> <C-W>h
-map <C-l> <C-W>l
-
 " Faster line movement
 noremap H ^
 noremap L $

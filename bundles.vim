@@ -46,6 +46,7 @@ Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-sleuth'
 Bundle 'wavded/vim-stylus'
 Bundle 'tpope/vim-surround'
+Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'tpope/vim-unimpaired'
 
 " need ruby
