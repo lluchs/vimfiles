@@ -32,6 +32,9 @@ endif
 " Standard Fugitive statusline
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
+" Local Leader
+let g:maplocalleader = '-'
+
 " ================== Completion ==================
 
 " enable wildmenu for tab-completion
