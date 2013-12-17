@@ -17,6 +17,7 @@ Bundle 'gmarik/vundle'
 Bundle 'mileszs/ack.vim'
 Bundle 'jtmkrueger/vim-c-cr'
 Bundle 'tpope/vim-commentary'
+Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'gregsexton/gitv'
 Bundle 'anzaika/go.vim'
@@ -48,13 +49,6 @@ Bundle 'wavded/vim-stylus'
 Bundle 'tpope/vim-surround'
 Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'tpope/vim-unimpaired'
-
-" need ruby
-if has("ruby")
-  Bundle 'git://git.wincent.com/command-t.git'
-else
-  Bundle 'kien/ctrlp.vim'
-endif
 
 " need python
 if has("python")
