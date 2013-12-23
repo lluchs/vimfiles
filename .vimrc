@@ -42,6 +42,9 @@ set wildmenu
 " configure wildmenu to behave more like bash
 set wildmode=list:longest,list:full
 
+" Ignore node.js node_module folders.
+set wildignore+=node_modules
+
 " =============== Search Settings ================
 
 set incsearch    " Find next match while typing
