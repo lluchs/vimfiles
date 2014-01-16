@@ -8,8 +8,8 @@ let g:solarized_termtrans=1
 " enable colorscheme
 set t_Co=16
 set background=dark
-colorscheme solarized
+silent! colorscheme solarized
 
 " Plugin to switch between light and dark backgrounds
-call togglebg#map("<F5>")
+silent! call togglebg#map("<F5>")
 
