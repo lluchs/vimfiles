@@ -74,7 +74,6 @@ set switchbuf=usetab   " Allow jumping to buffers in other tabs
 " ================= Indentation ==================
 
 set autoindent
-set smartindent
 set tabstop=4
 set shiftwidth=4
 
