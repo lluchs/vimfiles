@@ -1,4 +1,6 @@
 augroup rubysettings
   au!
-  autocmd FileType ruby setlocal noballooneval
+  if has('balloon_eval')
+    autocmd FileType ruby setlocal noballooneval
+  endif
 augroup END
