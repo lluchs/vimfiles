@@ -4,7 +4,7 @@
 git clone git://github.com/gmarik/vundle.git bundle/vundle
 
 # Install bundles
-vim -u bundles.vim +BundleInstall +q
+vim -u bundles.vim +PluginInstall +qall
 
 # Symlink .vimrc and .gvimrc
 [ -h ../.vimrc ] || ln -s .vim/.vimrc ../.vimrc

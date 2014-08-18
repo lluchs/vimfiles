@@ -1,5 +1,5 @@
 " bundle configuration
-" $ vim -u bundles.vim +BundleInstall +q
+" $ vim -u bundles.vim +PluginInstall +qall
 " for first installation
 
 set nocompatible
@@ -11,47 +11,49 @@ if &shell =~ '/fish$'
 endif
 
 set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
-Bundle 'mileszs/ack.vim'
-Bundle 'jtmkrueger/vim-c-cr'
-Bundle 'tpope/vim-commentary'
-Bundle 'kien/ctrlp.vim'
-Bundle 'tpope/vim-fugitive'
-Bundle 'gregsexton/gitv'
-Bundle 'chikamichi/mediawiki.vim'
-Bundle 'scrooloose/nerdtree'
-Bundle 'dsawardekar/portkey'
-Bundle 'kien/rainbow_parentheses.vim'
-Bundle 'ervandew/supertab'
-Bundle 'godlygeek/tabular'
-Bundle 'majutsushi/tagbar'
-Bundle 'coderifous/textobj-word-column.vim'
-Bundle 'lluchs/vim-c4script'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'ap/vim-css-color'
-Bundle 'tpope/vim-endwise'
-Bundle 'nathanaelkane/vim-indent-guides'
-Bundle 'michaeljsmith/vim-indent-object'
-Bundle 'elzr/vim-json'
-Bundle 'maciakl/vim-neatstatus'
-"Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-sleuth'
-Bundle 'justinmk/vim-sneak'
-Bundle 'tpope/vim-surround'
-Bundle 'christoomey/vim-tmux-navigator'
-Bundle 'tpope/vim-unimpaired'
+Plugin 'gmarik/vundle'
+Plugin 'mileszs/ack.vim'
+Plugin 'jtmkrueger/vim-c-cr'
+Plugin 'tpope/vim-commentary'
+Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'gregsexton/gitv'
+Plugin 'chikamichi/mediawiki.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'dsawardekar/portkey'
+Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'ervandew/supertab'
+Plugin 'godlygeek/tabular'
+Plugin 'majutsushi/tagbar'
+Plugin 'coderifous/textobj-word-column.vim'
+Plugin 'lluchs/vim-c4script'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'ap/vim-css-color'
+Plugin 'tpope/vim-endwise'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'michaeljsmith/vim-indent-object'
+Plugin 'elzr/vim-json'
+Plugin 'maciakl/vim-neatstatus'
+"Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-sleuth'
+Plugin 'justinmk/vim-sneak'
+Plugin 'tpope/vim-surround'
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'tpope/vim-unimpaired'
 
 " At the bottom to allow it to be overwritten.
-Bundle 'sheerun/vim-polyglot'
+Plugin 'sheerun/vim-polyglot'
 
 " need python
 if has("python")
-  Bundle 'sjl/gundo.vim'
-  Bundle 'sjl/splice.vim'
-  Bundle 'SirVer/ultisnips'
+  Plugin 'sjl/gundo.vim'
+  Plugin 'sjl/splice.vim'
+  Plugin 'SirVer/ultisnips'
 endif
+
+call vundle#end()
 
 filetype plugin indent on
