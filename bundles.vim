@@ -24,7 +24,6 @@ Plugin 'chikamichi/mediawiki.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'dsawardekar/portkey'
 Plugin 'kien/rainbow_parentheses.vim'
-Plugin 'ervandew/supertab'
 Plugin 'godlygeek/tabular'
 Plugin 'majutsushi/tagbar'
 Plugin 'coderifous/textobj-word-column.vim'
@@ -51,7 +50,12 @@ Plugin 'sheerun/vim-polyglot'
 if has("python")
   Plugin 'sjl/gundo.vim'
   Plugin 'sjl/splice.vim'
-  Plugin 'SirVer/ultisnips'
+  "Plugin 'SirVer/ultisnips'
+endif
+
+" need lua
+if has("lua")
+  Plugin 'Shougo/neocomplete.vim'
 endif
 
 call vundle#end()
