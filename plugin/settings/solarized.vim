@@ -1,7 +1,7 @@
 " Solarized colorscheme settings
 
-" Italics don't work well with bitmap fonts
-let g:solarized_italic=0
+" Enable italics.
+let g:solarized_italic=1
 " Fix background color
 let g:solarized_termtrans=1
 

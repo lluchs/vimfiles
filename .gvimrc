@@ -1,6 +1,7 @@
 " Font
-"set guifont=Consolas:h11
-set guifont=Terminus:h11
+if has("gui_win32")
+  set guifont=Input:h10,Consolas:h11
+endif
 
 " Remove toolbar
 set guioptions-=T
