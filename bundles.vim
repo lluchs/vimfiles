@@ -42,6 +42,7 @@ Plugin 'justinmk/vim-sneak'
 Plugin 'tpope/vim-surround'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'tpope/vim-unimpaired'
+Plugin 'lluchs/vim-wren'
 
 " At the bottom to allow it to be overwritten.
 Plugin 'sheerun/vim-polyglot'
