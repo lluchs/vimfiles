@@ -6,7 +6,7 @@ set nocompatible
 " Fix runtimepath on Windows
 set rtp=$HOME/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$HOME/.vim/after
 
-" Load Vundle and bundles configuration
+" Load bundles configuration
 source ~/.vim/bundles.vim
 
 " set directory for lock files

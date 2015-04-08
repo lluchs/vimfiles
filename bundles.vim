@@ -1,60 +1,48 @@
 " bundle configuration
-" $ vim -u bundles.vim +PluginInstall +qall
+" $ vim -u bundles.vim +PlugInstall +qall
 " for first installation
 
 set nocompatible
 filetype off
 
-" Vundle installation will fail with fish.
-if &shell =~ '/fish$'
-  set shell=/bin/bash
-endif
+call plug#begin('~/.vim/plugged')
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#begin()
-
-Plugin 'gmarik/vundle'
-Plugin 'mileszs/ack.vim'
-Plugin 'jtmkrueger/vim-c-cr'
-Plugin 'tpope/vim-commentary'
-Plugin 'kien/ctrlp.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'gregsexton/gitv'
-Plugin 'chikamichi/mediawiki.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'kien/rainbow_parentheses.vim'
-Plugin 'ervandew/supertab'
-Plugin 'godlygeek/tabular'
-Plugin 'majutsushi/tagbar'
-Plugin 'coderifous/textobj-word-column.vim'
-Plugin 'lluchs/vim-c4script'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'morhetz/gruvbox'
-Plugin 'ap/vim-css-color'
-Plugin 'tpope/vim-endwise'
-Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'michaeljsmith/vim-indent-object'
-Plugin 'elzr/vim-json'
-Plugin 'bling/vim-airline'
-"Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-repeat'
-Plugin 'tpope/vim-sleuth'
-Plugin 'justinmk/vim-sneak'
-Plugin 'tpope/vim-surround'
-Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'tpope/vim-unimpaired'
-Plugin 'lluchs/vim-wren'
+Plug 'mileszs/ack.vim'
+Plug 'jtmkrueger/vim-c-cr'
+Plug 'tpope/vim-commentary'
+Plug 'kien/ctrlp.vim'
+Plug 'tpope/vim-fugitive'
+Plug 'gregsexton/gitv'
+Plug 'scrooloose/nerdtree'
+Plug 'kien/rainbow_parentheses.vim'
+Plug 'ervandew/supertab'
+Plug 'godlygeek/tabular'
+Plug 'coderifous/textobj-word-column.vim'
+Plug 'lluchs/vim-c4script'
+Plug 'altercation/vim-colors-solarized'
+Plug 'morhetz/gruvbox'
+Plug 'ap/vim-css-color'
+Plug 'tpope/vim-endwise'
+Plug 'michaeljsmith/vim-indent-object'
+Plug 'elzr/vim-json'
+Plug 'bling/vim-airline'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-sleuth'
+Plug 'tpope/vim-surround'
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'tpope/vim-unimpaired'
+Plug 'lluchs/vim-wren'
 
 " At the bottom to allow it to be overwritten.
-Plugin 'sheerun/vim-polyglot'
+Plug 'sheerun/vim-polyglot'
 
 " need python
 if has("python")
-  Plugin 'sjl/gundo.vim'
-  Plugin 'sjl/splice.vim'
-  Plugin 'SirVer/ultisnips'
+  Plug 'sjl/gundo.vim'
+  Plug 'sjl/splice.vim'
+  Plug 'SirVer/ultisnips'
 endif
 
-call vundle#end()
+call plug#end()
 
 filetype plugin indent on
