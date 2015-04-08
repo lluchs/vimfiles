@@ -14,6 +14,9 @@ set directory=~/.vim/tmp//
 
 " ================ General Config ================
 
+set background=dark
+colorscheme gruvbox
+
 " syntax highlighting
 syntax on
 
