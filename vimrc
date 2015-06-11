@@ -15,7 +15,7 @@ set directory=~/.vim/tmp//
 " ================ General Config ================
 
 set background=dark
-colorscheme gruvbox
+silent! colorscheme gruvbox
 
 " syntax highlighting
 syntax on
@@ -31,9 +31,6 @@ set mouse=a                     " Enable mouse usage on command line
 if has("unix")                                                 
   set ttymouse=xterm2           " Proper mouse support on linux
 endif
-
-" Standard Fugitive statusline
-set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
 " Local Leader
 let g:maplocalleader = '-'
