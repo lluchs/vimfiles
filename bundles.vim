@@ -9,7 +9,6 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'jtmkrueger/vim-c-cr'
 Plug 'tpope/vim-commentary'
-Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'gregsexton/gitv'
 Plug 'mhinz/vim-grepper'
@@ -36,6 +35,14 @@ Plug 'lluchs/vim-wren'
 
 " At the bottom to allow it to be overwritten.
 Plug 'sheerun/vim-polyglot'
+
+" fzf doesn't work on Windows
+if has("win32")
+  Plug 'kien/ctrlp.vim'
+else
+  Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+  Plug 'junegunn/fzf.vim'
+endif
 
 " need python
 if has("python")
