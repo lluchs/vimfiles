@@ -29,7 +29,11 @@ set wrap linebreak              " Wrap properly at words
 set clipboard=unnamed           " Use system clipboard
 set mouse=a                     " Enable mouse usage on command line
 if has("unix")                                                 
-  set ttymouse=xterm2           " Proper mouse support on linux
+  if has("mouse_sgr")           " Proper mouse support on linux
+      set ttymouse=sgr          " Make mouse clicks beyond the 220th column work
+  else
+      set ttymouse=xterm2
+  end
 endif
 
 " Local Leader
