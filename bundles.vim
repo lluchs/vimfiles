@@ -41,7 +41,7 @@ Plug 'sheerun/vim-polyglot'
 if has("win32")
   Plug 'kien/ctrlp.vim'
 else
-  Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+  Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install' }
   Plug 'junegunn/fzf.vim'
 endif
 
