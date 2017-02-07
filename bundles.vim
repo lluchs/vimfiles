@@ -35,6 +35,10 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'tpope/vim-unimpaired'
 Plug 'lluchs/vim-wren'
 
+" Typescript support
+Plug 'Shougo/vimproc.vim', {'do' : 'make', 'for': 'typescript'}
+Plug 'Quramy/tsuquyomi', {'for': 'typescript'}
+
 " At the bottom to allow it to be overwritten.
 Plug 'sheerun/vim-polyglot'
 
