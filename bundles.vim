@@ -7,7 +7,6 @@ filetype off
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'jtmkrueger/vim-c-cr'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'gregsexton/gitv'
