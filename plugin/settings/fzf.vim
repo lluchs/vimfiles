@@ -1,3 +1,3 @@
 " fzf: Fuzzy Searching
 
-nmap <C-T> :Files<CR>
+nmap <C-P> :Files<CR>
