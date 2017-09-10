@@ -9,7 +9,9 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-speeddating'
 Plug 'gregsexton/gitv'
+Plug 'nathangrigg/vim-beancount'
 Plug 'mhinz/vim-grepper'
 Plug 'scrooloose/nerdtree'
 Plug 'kien/rainbow_parentheses.vim'
@@ -33,6 +35,7 @@ Plug 'neomake/neomake'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'tpope/vim-unimpaired'
 Plug 'lluchs/vim-wren'
+Plug 'jceb/vim-orgmode'
 
 " Typescript support
 Plug 'Shougo/vimproc.vim', {'do' : 'make', 'for': 'typescript'}
