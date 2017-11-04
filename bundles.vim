@@ -17,7 +17,6 @@ Plug 'scrooloose/nerdtree'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'glts/vim-radical'
   Plug 'glts/vim-magnum'
-Plug 'ervandew/supertab'
 Plug 'godlygeek/tabular'
 Plug 'coderifous/textobj-word-column.vim'
 Plug 'lluchs/vim-c4script'
@@ -58,7 +57,6 @@ endif
 if has("python")
   Plug 'sjl/gundo.vim'
   Plug 'sjl/splice.vim'
-  Plug 'SirVer/ultisnips'
 endif
 
 call plug#end()
