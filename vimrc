@@ -107,6 +107,9 @@ inoremap jk <esc>
 " More logical yanking
 noremap Y y$
 
+" Select pasted text in visual mode
+nnoremap <expr> gp '`[' . strpart(getregtype(), 0, 1) . '`]'
+
 " Clear search highlighting
 nmap <leader><space> :noh<CR>
 
