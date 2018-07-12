@@ -39,6 +39,8 @@ Plug 'tpope/vim-unimpaired'
 Plug 'lluchs/vim-wren'
 Plug 'vimwiki/vimwiki'
 Plug 'jceb/vim-orgmode'
+Plug 'prabirshrestha/vim-lsp'
+  Plug 'prabirshrestha/async.vim'
 
 " Typescript support
 Plug 'Shougo/vimproc.vim', {'do' : 'make', 'for': 'typescript'}
