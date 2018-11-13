@@ -33,6 +33,7 @@ set cursorline                  " Highlight the current line
 set scrolloff=3                 " Start scrolling 3 lines away from margins
 set wrap linebreak              " Wrap properly at words
 set clipboard=unnamed           " Use system clipboard
+set title                       " Set terminal title
 set mouse=a                     " Enable mouse usage on command line
 if has("unix")                                                 
   if has("mouse_sgr")           " Proper mouse support on linux
