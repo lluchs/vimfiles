@@ -11,6 +11,7 @@ Plug 'metakirby5/codi.vim'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-speeddating'
+Plug 'whiteinge/diffconflicts'
 Plug 'gregsexton/gitv'
 Plug 'nathangrigg/vim-beancount'
 Plug 'mhinz/vim-grepper'
@@ -34,15 +35,11 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-tbone'
 Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-surround'
-Plug 'neomake/neomake'
 Plug 'tpope/vim-unimpaired'
 Plug 'lluchs/vim-wren'
 Plug 'vimwiki/vimwiki'
 Plug 'jceb/vim-orgmode'
-Plug 'autozimu/LanguageClient-neovim', {
-    \ 'branch': 'next',
-    \ 'do': 'bash install.sh',
-    \ }
+Plug 'w0rp/ale'
 
 " Typescript support
 Plug 'Shougo/vimproc.vim', {'do' : 'make', 'for': 'typescript'}
