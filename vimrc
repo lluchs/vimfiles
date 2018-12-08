@@ -35,7 +35,7 @@ set wrap linebreak              " Wrap properly at words
 set clipboard=unnamed           " Use system clipboard
 set title                       " Set terminal title
 set mouse=a                     " Enable mouse usage on command line
-if has("unix")                                                 
+if has("unix") && !has("nvim")
   if has("mouse_sgr")           " Proper mouse support on linux
       set ttymouse=sgr          " Make mouse clicks beyond the 220th column work
   else
