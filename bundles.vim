@@ -45,6 +45,17 @@ Plug 'w0rp/ale'
 Plug 'Shougo/vimproc.vim', {'do' : 'make', 'for': 'typescript'}
 Plug 'Quramy/tsuquyomi', {'for': 'typescript'}
 
+" Completion
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
+let g:deoplete#enable_at_startup = 1
+
 " At the bottom to allow it to be overwritten.
 Plug 'sheerun/vim-polyglot'
 
