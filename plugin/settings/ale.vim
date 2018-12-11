@@ -1,5 +1,7 @@
 "let g:ale_completion_enabled = 1
-let g:ale_set_balloons = 1
+if !has('nvim')
+  let g:ale_set_balloons = 1
+endif
 
 let g:ale_linters = {
 \ 'cpp': ['cquery', 'cpplint'],
