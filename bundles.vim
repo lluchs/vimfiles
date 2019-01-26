@@ -54,7 +54,6 @@ else
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
 Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
-let g:deoplete#enable_at_startup = 1
 
 " At the bottom to allow it to be overwritten.
 Plug 'sheerun/vim-polyglot'
