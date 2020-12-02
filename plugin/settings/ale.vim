@@ -7,6 +7,9 @@ let g:ale_linters = {
 \ 'cpp': ['cquery', 'cpplint'],
 \ 'rust': ['rls'],
 \ }
+let g:ale_fixers = {
+\ 'rust': ['rustfmt'],
+\ }
 
 let g:ale_rust_rls_toolchain = 'stable'
 
